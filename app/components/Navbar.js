@@ -10,8 +10,9 @@ export default function Navbar() {
     return (
         <div className={styles.navcontainer}>
 
-            <h3>NFT Marketplace</h3>
+           <a href="/"><h3>NFT Marketplace</h3></a> 
             <p>Menu</p>
+            
             <div>
                 {user ? (
                     <button>
